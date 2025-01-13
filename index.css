@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.section1{
+    font-size: 30px;
+    top: 0;
+    border: 5px solid rgb(30, 111, 231);
+    margin-bottom: 130px;
+}
+
+.section1 h5{
+
+    font-size: 40px;
+    color: rgb(30, 111, 231);
+    font-weight: bolder;
+    margin-top: -250px;
+    margin-bottom: 100px;
+}
+
+
+.section1 img{
+
+    height: 700px;
+}
+
+.section1 a{
+
+    text-decoration: none;
+    background-color: rgb(30, 111, 231);
+    color: rgb(192, 190, 190);
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
+
+.section2{
+
+    font-size: 20px;
+    margin-bottom: 80px;
+    color: rgb(30, 111, 231);
+}
+
+.section2 .div1{
+
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+.section2 h2{
+
+    text-align: center;
+    font-size: 40px;
+}
+
+.section3{
+
+    display: flex;
+    padding: 0 10px;
+    margin-bottom: 150px;
+    width: 100%;
+    justify-content: space-evenly;
+    color: rgb(30, 111, 231);
+
+}
+
+.section3 img{
+
+    border-radius: 10px;
+    box-shadow: 1px 10px 5px  rgba(0, 0, 0, 0.322);
+}
+
+.section3 .div1{
+
+    width: 40%;
+}
+
+.section3 .div2{
+
+    width: 20%;
+}
+
+.section3 a{
+
+    text-decoration: none;
+    border: 2px solid rgb(30, 111, 231);
+    padding: 5px 30px;
+    color: rgb(30, 111, 231);
+    border-radius: 5px;
+}
+
+
+.section4{
+
+    background-image: url(images/photo-1617721926586-4eecce739745.avif);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(30, 111, 231);
+    margin-bottom: 150px;
+}
+
+.section4 h3{
+
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.section4 span{
+
+    font-style: italic;
+}
+
+.section4 div{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.section4 a{
+
+    text-decoration: none;
+    border: 2px solid rgb(30, 111, 231);
+    padding: 2px 30px;
+    color: rgb(30, 111, 231);
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+nav a{
+
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+.section5 h1{
+
+    font-size: 50px;
+    color: rgb(30, 111, 231);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+.section5 .div1{
+    width: 100%;
+    padding: 20px 20px;
+    background-color: rgb(30, 111, 231);
+    padding: 20px;
+}
+
+.section5 .div2{
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+   
+}
+
+.section5 img{
+    width: 45%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 10px 5px  rgba(0, 0, 0, 0.322);
+}
+
+
+@media screen and (max-width:768px) {
+
+
+    .section1 img{
+
+        height: auto;
+        width: 100%;
+    }
+
+    .section1{
+
+        height: auto;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+
+
+    .section3{
+
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding: 20px;
+    }
+
+
+    .section3 .div1{
+
+        width: 100%;
+    }
+
+    .section3 .div2{
+
+        width: 100%;
+    }
+
+    .section3 img{
+
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .section4{
+
+        height: auto;
+        width: 100%;
+        font-size: 30px;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+    .section4 h3{
+
+        font-size: 50px;
+    }
+
+    .section4 a{
+
+        font-size: 20px;
+
+    }
+
+    .section4 div{
+
+        gap: 50px;
+    }
+
+    .section2{
+
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+    .section2 .div1{
+
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .section2 h2{
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .section5 .div1{
+
+        display: block;
+        padding: 0;
+        margin: 0;
+        height: auto;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .section5 img{
+
+        display: block;
+        margin-bottom: 10px;
+    }
+
+     
+}

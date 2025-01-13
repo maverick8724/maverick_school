@@ -1,0 +1,123 @@
+.side{
+
+    background-color:  rgb(30, 111, 231) !important;
+    color: white;
+}
+
+.first-div{
+
+    padding: 20px;
+}
+
+
+.section1 h1{
+    text-align: center;
+    font-weight: bolder;
+    color:  rgb(30, 111, 231) !important;
+}
+
+.section1 hr{
+    width: 50%;
+    border: 2px solid  rgb(30, 111, 231) !important;
+    
+}
+
+.hr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container1{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container1 a{
+
+    color: rgb(30, 111, 231) !important;
+    background-color: white;
+    text-decoration: none;
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.card{
+    width: 30%;
+    border: 2px solid  rgb(30, 111, 231) !important;
+    background-color:  rgb(30, 111, 231) !important;
+    color: white !important;
+    padding: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.card img{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card h2{
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.section1{
+
+    margin-bottom: 40px;
+}
+
+
+.notice h2{
+
+    text-align: center;
+    font-weight: bolder;
+}
+
+.notice{
+
+    margin: 0 auto;
+    width: 50%;
+    background-color:  rgb(30, 111, 231) !important;
+    color: white;
+    border-radius: 5px;
+    padding: 120px;
+    background-image: url(images/board.webp);
+    background-size: cover;
+    /* height: 100% !important; */
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px black;
+
+}
+
+.notice hr{
+
+    border: 4px solid  #fff !important;
+    box-shadow: 3px 3px 1px black;
+    margin-bottom: 20px;
+    
+
+}
+
+.section2{
+
+    display: flex;
+}
+
+.section2 a{
+
+    text-decoration: none;
+    background-color: rgb(30, 111, 231);
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+

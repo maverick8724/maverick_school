@@ -1,0 +1,31 @@
+h1{
+
+    text-align: center;
+}
+
+.push{
+
+    margin-top: 150px;
+}
+
+
+
+table,th,td,tr{
+
+    border: 2px solid blue !important;
+    border-collapse: collapse;
+}
+
+.passport{
+    width: 480px;
+    text-align: center;
+}
+
+/* th{
+   
+    border: 2px solid blue;
+}
+
+td{
+    border: 2px solid blue;
+} */

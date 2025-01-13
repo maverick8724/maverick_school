@@ -1,0 +1,63 @@
+[16-Oct-2024 11:41:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/maverick/public_html/db.php:8
+Stack trace:
+#0 /home/maverick/public_html/db.php(8): mysqli->__construct()
+#1 /home/maverick/public_html/registration_handler.php(9): require('/home/maverick/...')
+#2 /home/maverick/public_html/register.php(3): include('/home/maverick/...')
+#3 {main}
+  thrown in /home/maverick/public_html/db.php on line 8
+[16-Oct-2024 12:08:02 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[16-Oct-2024 12:08:10 UTC] PHP Warning:  Undefined array key "full_name" in /home/maverick/public_html/resend_verification.php on line 10
+[16-Oct-2024 12:08:10 UTC] PHP Warning:  Undefined array key "id" in /home/maverick/public_html/resend_verification.php on line 12
+[16-Oct-2024 12:08:10 UTC] PHP Warning:  Undefined variable $hashedPassword in /home/maverick/public_html/resend_verification.php on line 123
+[16-Oct-2024 12:08:26 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[16-Oct-2024 12:11:42 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[16-Oct-2024 12:23:26 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[16-Oct-2024 12:23:30 UTC] PHP Warning:  Undefined array key "full_name" in /home/maverick/public_html/resend_verification.php on line 10
+[16-Oct-2024 12:23:30 UTC] PHP Warning:  Undefined array key "id" in /home/maverick/public_html/resend_verification.php on line 12
+[16-Oct-2024 12:23:30 UTC] PHP Warning:  Undefined variable $hashedPassword in /home/maverick/public_html/resend_verification.php on line 123
+[16-Oct-2024 12:30:03 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[16-Oct-2024 12:30:07 UTC] PHP Warning:  Undefined array key "full_name" in /home/maverick/public_html/resend_verification.php on line 10
+[16-Oct-2024 12:30:07 UTC] PHP Warning:  Undefined array key "id" in /home/maverick/public_html/resend_verification.php on line 12
+[16-Oct-2024 12:31:36 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[16-Oct-2024 12:31:50 UTC] PHP Warning:  Undefined array key "full_name" in /home/maverick/public_html/resend_verification.php on line 10
+[16-Oct-2024 12:31:50 UTC] PHP Warning:  Undefined array key "id" in /home/maverick/public_html/resend_verification.php on line 12
+[25-Oct-2024 19:02:22 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[25-Oct-2024 19:03:39 UTC] PHP Warning:  Undefined array key "full_name" in /home/maverick/public_html/resend_verification.php on line 10
+[25-Oct-2024 19:03:39 UTC] PHP Warning:  Undefined array key "id" in /home/maverick/public_html/resend_verification.php on line 12
+[25-Oct-2024 19:05:12 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[25-Oct-2024 19:05:23 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[25-Oct-2024 19:05:29 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[25-Oct-2024 19:05:33 UTC] PHP Warning:  Undefined array key "full_name" in /home/maverick/public_html/resend_verification.php on line 10
+[25-Oct-2024 19:05:33 UTC] PHP Warning:  Undefined array key "id" in /home/maverick/public_html/resend_verification.php on line 12
+[30-Oct-2024 10:28:16 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:28:41 UTC] PHP Warning:  Undefined array key "full_name" in /home/maverick/public_html/resend_verification.php on line 10
+[30-Oct-2024 10:28:41 UTC] PHP Warning:  Undefined array key "id" in /home/maverick/public_html/resend_verification.php on line 12
+[30-Oct-2024 10:28:52 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:32:16 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/maverick/public_html/registration_handler.php on line 3
+[30-Oct-2024 10:33:45 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:34:01 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:34:39 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:34:42 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:34:44 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:34:45 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:34:47 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:34:49 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:34:50 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:34:52 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:34:56 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:34:58 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:34:59 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:35:02 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 10:35:07 UTC] PHP Warning:  Undefined array key "number" in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 12:36:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/maverick/public_html/registration_handler.php on line 3
+[30-Oct-2024 12:37:05 UTC] PHP Warning:  Undefined array key "logged_in" in /home/maverick/public_html/student_profile.php on line 11
+[30-Oct-2024 12:37:05 UTC] PHP Warning:  Undefined array key "email" in /home/maverick/public_html/student_profile.php on line 24
+[30-Oct-2024 12:37:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/maverick/public_html/student_profile.php on line 28
+[30-Oct-2024 12:37:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/maverick/public_html/student_profile.php on line 29
+[30-Oct-2024 12:37:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/maverick/public_html/student_profile.php on line 30
+[30-Oct-2024 12:37:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/maverick/public_html/student_profile.php on line 31
+[30-Oct-2024 12:37:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/maverick/public_html/student_profile.php on line 32
+[30-Oct-2024 12:37:05 UTC] PHP Warning:  Undefined array key "email" in /home/maverick/public_html/student_profile.php on line 70
+[30-Oct-2024 12:37:05 UTC] PHP Warning:  Undefined variable $passport in /home/maverick/public_html/student_profile.php on line 95
+[30-Oct-2024 12:37:05 UTC] PHP Warning:  Undefined variable $studentId in /home/maverick/public_html/student_profile.php on line 99
+[30-Oct-2024 12:37:05 UTC] PHP Warning:  Undefined variable $date in /home/maverick/public_html/student_profile.php on line 122
